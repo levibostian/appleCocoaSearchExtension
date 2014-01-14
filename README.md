@@ -1,4 +1,4 @@
 appleCocoaSearchExtension
 =========================
 
-Like AndroidSDKExtension: https://github.com/romannurik/AndroidSDKSearchExtension, but for iOS
+Like AndroidSDKSearchExtension: https://github.com/romannurik/AndroidSDKSearchExtension, but for iOS
