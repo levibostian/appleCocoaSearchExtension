@@ -25,9 +25,8 @@ var REFERENCE_JS_URLS = [
 
 
 chrome.omnibox.setDefaultSuggestion({
-  description: 'Loading Android SDK search data...'
+  description: 'Loading Cocoa reference search data...'
 });
-
 
 /**
  * Initialization function that tries to load the SDK reference JS, and upon
@@ -166,7 +165,7 @@ function loadScript(url, successFn, errorFn) {
  */
 function onScriptsLoaded() {
   chrome.omnibox.setDefaultSuggestion({
-    description: 'Search Android SDK docs for <match>%s</match>'
+    description: 'Search Cocoa reference docs for <match>%s</match>'
   });
 
   chrome.omnibox.onInputChanged.addListener(
