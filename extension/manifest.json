@@ -4,6 +4,7 @@
 	"description": "Gives quick access to Apple Developer's site search by typing search query in omnibox.",
 	"version": "0.1",
 	"author": "Levi Bostian",
+	"short_name": "Apple Dev Search",
 	"omnibox": { "keyword": "ap" },
 	"icons": {
 		"16": "icons/16.png",
